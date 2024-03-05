@@ -1,6 +1,6 @@
 # Usage
 
-Snippet:
+Snippet (replace localhost port number):
 
 ```javascript
 asset = document.getElementById('asset');
@@ -22,6 +22,7 @@ if (!assetStyle) {
 style.innerHTML = `
 #asset {
     position: fixed;
+    z-index: 10000000;
     top: 0;
     left: 0;
     pointer-events: none;
