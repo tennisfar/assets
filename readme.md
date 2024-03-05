@@ -26,8 +26,9 @@ style.innerHTML = `
     left: 0;
     pointer-events: none;
     opacity: 0.3;
+    width: 375px;
 }
 `;
 
-ss.src = 'http://localhost:60109/compliance-casino/ss.png';
+ss.src = 'http://localhost:60109/compliance-casino/figma.png';
 ```
